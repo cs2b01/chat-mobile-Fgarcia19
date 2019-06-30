@@ -1,8 +1,8 @@
 package cs2901.utec.chat_mobile;
 
+import android.support.v7.app.AppCompatActivity;
 import android.app.Activity;
 import android.content.ComponentCallbacks;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -34,11 +34,11 @@ public class LoginActivity extends AppCompatActivity {
     public void showMessage(String message) {
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
+
     public Activity getActivity()
     {
         return this;
     }
-
 
     public void onBtnLoginClicked(View view) {
         // 1. Getting username and password inputs from view
