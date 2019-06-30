@@ -29,7 +29,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="201810160-Fabrizio Garcia"/>
+                android:text="201810160 - Fabrizio Garcia C"/>
+
         </LinearLayout>
 
 
@@ -48,8 +49,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Usuario"
-                />
+		android:hint="Usuario"		
+		/>
         </LinearLayout>
 
         <LinearLayout
@@ -67,8 +68,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPassword"
-                android:hint="Contraseña"
-                />
+		android:hint="Contraseña"		
+		/>
         </LinearLayout>
 
         <LinearLayout
